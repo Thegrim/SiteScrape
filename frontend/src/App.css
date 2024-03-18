@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.extracted-text-container {
+  color: #333; /* Darker text for better readability */
+  background-color: #f9f9f9; /* Light background to contrast the text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Spacious layout */
+  margin-top: 20px; /* Spacing from the top */
+  overflow-y: auto; /* Enables vertical scrolling if the content exceeds the max height */
+  width: 90%; /* Adjust the width as needed */
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin-left: auto; /* Centers the container */
+  margin-right: auto; /* Centers the container */
+  text-align: left; /* Ensures the text is aligned to the left */
+}
+
+.extracted-text-container h1, .extracted-text-container h2, .extracted-text-container h3, .extracted-text-container h4, .extracted-text-container h5, .extracted-text-container h6 {
+  color: #2a52be; /* Blue color for headings */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle shadow for headings */
+}
+
+.extracted-text-container p, .extracted-text-container li {
+  text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05); /* Lighter shadow for paragraphs and list items */
+}
+
+/* Font Family */
+body {
+  font-family: 'Garamond', serif;
+}
+
+/* Color Scheme */
+h1, h2, h3, h4, h5, h6 {
+  color: #2a52be; /* Cool blue for headings */
+}
+a {
+  color: #ffd700; /* Gold for links */
+}
+
+/* Font Size and Hierarchy */
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1.125em; }
+h6 { font-size: 1em; }
+p, li { font-size: 1em; }
+
+/* Interactivity */
+details > summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+details > p {
+  padding-left: 20px;
+}

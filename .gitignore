@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Python virtual environments
+env/
+.venv/
+venv/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
